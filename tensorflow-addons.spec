@@ -1,6 +1,6 @@
 Name     : tensorflow-addons
 Version  : 0.6.0
-Release  : 3
+Release  : 4
 URL      : https://github.com/tensorflow/addons/archive/v0.6.0.tar.gz
 Source0  : https://github.com/tensorflow/addons/archive/v0.6.0.tar.gz
 
@@ -13,6 +13,8 @@ Source10 : https://mirror.bazel.build/github.com/bazelbuild/rules_cc/archive/0d5
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
+
+Patch1 : 0001-Remove-tensorflow-gpu-dependency.patch
 
 BuildRequires : pip
 BuildRequires : python3-dev
@@ -36,6 +38,7 @@ smaller subset of the community).
 %prep
 %setup -q  -n addons-0.6.0
 
+%patch1 -p1
 
 %build
 export no_proxy=localhost,127.0.0.1,0.0.0.0
