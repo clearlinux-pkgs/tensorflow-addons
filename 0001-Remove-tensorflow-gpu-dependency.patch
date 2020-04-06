@@ -21,7 +21,7 @@ index 5d6d3cb..11638ef 100644
 -        REQUIRED_PACKAGES.append('tensorflow-gpu == 2.0.0-rc0')
 -    else:
 -        REQUIRED_PACKAGES.append('tensorflow == 2.0.0-rc0')
-+        REQUIRED_PACKAGES.append('tensorflow == 2.0.0')
++        REQUIRED_PACKAGES.append('tensorflow == 2.0.1')
  elif project_name == TFA_NIGHTLY:
      # TODO: remove if-else condition when tf-nightly supports package consolidation.
      if platform.system() == 'Linux':
