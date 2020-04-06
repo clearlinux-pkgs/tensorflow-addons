@@ -1,6 +1,6 @@
 Name     : tensorflow-addons
 Version  : 0.6.0
-Release  : 5
+Release  : 6
 URL      : https://github.com/tensorflow/addons/archive/v0.6.0.tar.gz
 Source0  : https://github.com/tensorflow/addons/archive/v0.6.0.tar.gz
 
