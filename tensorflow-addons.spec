@@ -1,6 +1,6 @@
 Name     : tensorflow-addons
 Version  : 0.11.2
-Release  : 9
+Release  : 10
 URL      : https://github.com/tensorflow/addons/archive/v0.11.2/tensorflow-addons-0.11.2.tar.gz
 Source0  : https://github.com/tensorflow/addons/archive/v0.11.2/tensorflow-addons-0.11.2.tar.gz
 Summary  : Useful extra functionality for TensorFlow 2.x maintained by SIG-addons
