@@ -1,6 +1,6 @@
 Name     : tensorflow-addons
 Version  : 0.11.2
-Release  : 12
+Release  : 13
 URL      : https://github.com/tensorflow/addons/archive/v0.11.2/tensorflow-addons-0.11.2.tar.gz
 Source0  : https://github.com/tensorflow/addons/archive/v0.11.2/tensorflow-addons-0.11.2.tar.gz
 Summary  : Useful extra functionality for TensorFlow 2.x maintained by SIG-addons
@@ -79,7 +79,7 @@ pip3 install \
   --force-reinstall \
   --ignore-installed \
   --root \
-  %{buildroot} /var/tmp/artifacts/tensorflow_addons-%{version}-cp38-cp38-linux_x86_64.whl
+  %{buildroot} /var/tmp/artifacts/tensorflow_addons-%{version}-cp39-cp39-linux_x86_64.whl
 
 %files
 %defattr(-,root,root,-)
